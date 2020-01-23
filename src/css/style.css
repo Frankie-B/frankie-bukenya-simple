@@ -64,7 +64,6 @@ header {
   background-attachment: fixed;
   color: white;
   text-align: center;
-  /* width: 100vw; */
 }
 
 .hero h1 {
@@ -136,7 +135,7 @@ h2 {
 .section-heading {
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -156,7 +155,7 @@ h2 {
 
 p {
   color: #000000;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .content-row {
@@ -171,10 +170,14 @@ p {
   width: 25%;
 }
 
-.rgb-img {
+.wiz-img {
   float: right;
   margin-left: 30px;
   width: 25%;
+}
+
+.subheading {
+  color: #000000;
 }
 
 #cta {
@@ -297,11 +300,25 @@ p {
   }
 
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .hero h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .profile-img {
+    margin-top: 15px;
+    height: 50px;
+  }
+
+  .container {
+    height: 50%;
+  }
+
+  #cta {
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
 }
 
