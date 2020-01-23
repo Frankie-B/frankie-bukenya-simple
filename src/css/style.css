@@ -40,9 +40,12 @@ header {
   font-size: 17px;
 }
 
-.topnav a:not(:last-child):hover,
-.accent {
+.topnav a:not(:last-child):hover {
   border-bottom: 1px solid #ff4f00;
+  color: #ff4f00;
+}
+
+.accent {
   color: #ff4f00;
 }
 
