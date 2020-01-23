@@ -232,7 +232,7 @@ p {
 
 .footer-link {
   color: #ffffff;
-  margin-left: 20px;
+  margin: 0 20px;
   text-decoration: none;
   width: 100px;
 }
@@ -314,6 +314,10 @@ p {
 
   .container {
     height: 50%;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
   }
 
   #cta {
