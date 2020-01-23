@@ -312,9 +312,9 @@ p {
     height: 50px;
   }
 
-  /* .container {
-    height: 90%;
-  } */
+  .container {
+    height: 100%;
+  }
 
   .section-heading {
     font-size: 1.5rem;
